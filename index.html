@@ -1,0 +1,36 @@
+<html>
+	<link rel="shortcut icon" href="yame.webp" type="image/x-icon">  
+		<title><></title>
+	<link rel="shortcut icon" href="ico.jpg" type="image/x-icon">
+	<meta name="description" content="official (unofficial) yameii dot online web page">
+	<script type="text/javascript">
+		var titleText = document.title;
+		function titleMarquee() {
+ 			titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+ 			document.title = titleText;
+ 			setTimeout("titleMarquee()", 900); }
+	</script>
+	
+	<style>
+	.fix{position:fixed; bottom:0px; left:50%;}
+	body {font-family: 'Trebuchet MS', sans-serif;}
+	.club{position:fixed; bottom:40px; left:10px;}
+	.welcome{position:fixed; bottom:10px; left:10px;}
+	</style>
+	<body onload="titleMarquee()" style="background-color:pink;">
+
+		<strong>
+			<h1>
+				<span class="welcome" style="color: #ff3b9a;">welcome to yameii online</span>
+			</h1>
+			<h3>
+				<a class= "club" style="color: #ff3b9a; text-decoration: none;" href="https://discord.com/invite/f5FBdTrSUD">join the club</a>
+			</h3>
+		</strong>
+		<div><iframe width="0" height="0" src="audio.mp3" frameborder="0"></iframe>
+			<a href="https://yameii.online/directory">
+				<img class="fix" src="yam.gif" alt="click" width="800" height="600">
+			</a>
+		</div>
+	</body>
+</html>
